@@ -2,6 +2,8 @@
 
 Supporting results for the manuscript **"Enhanced Masked Contextual Bandits for Bank Channel Selection: An Empirical Comparison of a Dual-Model Hybrid with Conventional Metaheuristics"**.
 
+V. V. Chau, U. Klinsak, and P. Meesad
+
 This repository holds the numbers behind every table and figure in the manuscript: per-world JSON logs, the computed summary tables and the figures. Source code is not included; it is available from the corresponding author, as stated in the manuscript.
 
 ## Summary of the study
