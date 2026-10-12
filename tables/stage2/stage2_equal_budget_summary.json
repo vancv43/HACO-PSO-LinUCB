@@ -1,0 +1,112 @@
+{
+ "H1_equal_budget_status": "NOT SUPPORTED",
+ "means": {
+  "ACO": 128.094,
+  "BPSO": 128.319,
+  "DE": 127.866,
+  "GA": 128.114,
+  "HACO-PSO": 127.96,
+  "HACO-PSO-GA": 128.679,
+  "RS": 127.449,
+  "LinUCB default alpha=1 [train+val]": 117.897,
+  "Per-channel GBM, greedy [train+val]": 116.964,
+  "Segment best-channel rule [train+val]": 124.543,
+  "BO (TPE)": 127.621,
+  "Per-channel GBM, tuned": 125.425,
+  "Segment rule, tuned": 124.631
+ },
+ "H1": [
+  {
+   "reference": "HACO-PSO",
+   "comparator": "Per-channel GBM, tuned",
+   "mean_diff": 2.535254723683108,
+   "ci_lo": 2.21767765010759,
+   "ci_hi": 2.8584457022033596,
+   "rel_pct": 2.021328294416661,
+   "wins": 88,
+   "n": 90,
+   "p": 5.602009369704894e-16,
+   "p_holm": 7.041307301053732e-16
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "Segment rule, tuned",
+   "mean_diff": 3.329254368660419,
+   "ci_lo": 2.916526064812186,
+   "ci_hi": 3.7528605052874253,
+   "rel_pct": 2.6712851984540746,
+   "wins": 86,
+   "n": 90,
+   "p": 3.520653650526866e-16,
+   "p_holm": 7.041307301053732e-16
+  }
+ ],
+ "H2": [
+  {
+   "reference": "BO (TPE)",
+   "comparator": "RS",
+   "mean_diff": 0.1720074704653156,
+   "ci_lo": -0.07712206445572228,
+   "ci_hi": 0.4218903576205766,
+   "rel_pct": 0.1349615836023139,
+   "wins": 46,
+   "n": 90,
+   "p": 0.18624083186800322,
+   "p_holm": 0.18624083186800322
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "BO (TPE)",
+   "mean_diff": 0.3392220308843876,
+   "ci_lo": 0.14271247866478418,
+   "ci_hi": 0.5386962227577329,
+   "rel_pct": 0.2658037909656375,
+   "wins": 57,
+   "n": 90,
+   "p": 0.0013139494328026527,
+   "p_holm": 0.0026278988656053054
+  }
+ ],
+ "extra": [
+  {
+   "reference": "Per-channel GBM, tuned",
+   "comparator": "Per-channel GBM, greedy [train+val]",
+   "mean_diff": 8.46121506111557,
+   "ci_lo": 8.089255675147994,
+   "ci_hi": 8.843550949304015,
+   "rel_pct": 7.23403554914324,
+   "wins": 90,
+   "n": 90,
+   "p": 1.7437900167092118e-16
+  },
+  {
+   "reference": "Segment rule, tuned",
+   "comparator": "Segment best-channel rule [train+val]",
+   "mean_diff": 0.08867076419036582,
+   "ci_lo": -0.24623702222245575,
+   "ci_hi": 0.4338966270581924,
+   "rel_pct": 0.07119718555930868,
+   "wins": 41,
+   "n": 90,
+   "p": 0.900758312562241
+  },
+  {
+   "reference": "BPSO",
+   "comparator": "BO (TPE)",
+   "mean_diff": 0.6976685494543345,
+   "ci_lo": 0.47765956269999466,
+   "ci_hi": 0.9216806560621664,
+   "rel_pct": 0.5466712901841608,
+   "wins": 67,
+   "n": 90,
+   "p": 6.747108983291446e-08
+  }
+ ],
+ "tuned_params_mode": {
+  "Segment rule, tuned": {
+   "{'key': 'segment x age band', 'pa': 1.8852092810143546, 'pb': 40.41967519755431}": 1,
+   "{'key': 'segment x age band', 'pa': 2.183230062760645, 'pb': 18.133724793798976}": 1,
+   "{'key': 'age band', 'pa': 1.7325761385270244, 'pb': 22.294145873030907}": 1
+  }
+ }
+}

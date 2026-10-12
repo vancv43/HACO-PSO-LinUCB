@@ -1,0 +1,4 @@
+method,mean,std
+LinUCB default alpha=1 [train+val],118.73513896075791,3.6357091999807025
+"Per-channel GBM, greedy [train+val]",118.09736152767434,3.9537471286239154
+Segment best-channel rule [train+val],125.48038597801437,3.8021743951002476

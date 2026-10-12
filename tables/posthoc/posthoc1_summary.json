@@ -1,0 +1,524 @@
+{
+ "means": {
+  "A_current": {
+   "Default LinUCB": 118.94868776362502,
+   "Greedy ridge, tuned, frozen": 127.64650073197431,
+   "Greedy ridge, tuned, online": 128.2173958610944,
+   "HACO-PSO-LinUCB": 128.29565243944248,
+   "Linear TS, tuned": 128.26072142281453,
+   "Linear eps-greedy, tuned": 127.97296138940614,
+   "Per-channel GBM, tuned": 126.10758977315783,
+   "Segment rule, tuned": 124.60332245176612,
+   "Tuned, frozen": 127.71094613056913,
+   "Tuned, no exploration": 128.3549130729017,
+   "Tuned, no exploration, frozen": 127.7859675560765
+  },
+  "B_cap_only": {
+   "Default LinUCB": 109.12198641096694,
+   "HACO-PSO-LinUCB": 119.80137225148158,
+   "Per-channel GBM, tuned": 116.09389598936149,
+   "Segment rule, tuned": 115.64002444578371
+  },
+  "B_constrained": {
+   "Default LinUCB": 107.15455979292143,
+   "Greedy ridge, tuned, frozen": 117.47486276153283,
+   "Greedy ridge, tuned, online": 117.60777056542469,
+   "HACO-PSO-LinUCB": 117.63202148680925,
+   "Linear TS, tuned": 117.53790543738707,
+   "Linear eps-greedy, tuned": 117.4203135665371,
+   "Per-channel GBM, tuned": 113.98910688070563,
+   "Segment rule, tuned": 113.43112276072488,
+   "Tuned, frozen": 117.07459895556822,
+   "Tuned, no exploration": 117.6470578315918,
+   "Tuned, no exploration, frozen": 117.1346174924857
+  },
+  "B_fatigue_only": {
+   "Default LinUCB": 116.51340110487726,
+   "HACO-PSO-LinUCB": 125.62833759463955,
+   "Per-channel GBM, tuned": 123.57096336233579,
+   "Segment rule, tuned": 121.92564003969974
+  }
+ },
+ "R1_A_current": [
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Tuned, no exploration",
+   "mean_diff": -0.0592606334592053,
+   "ci_lo": -0.14483050488123414,
+   "ci_hi": 0.008776949333758083,
+   "rel_pct": -0.046169353428292266,
+   "wins": 8,
+   "n": 30,
+   "p": 0.057532856885374205,
+   "p_holm": 0.057532856885374205
+  },
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Tuned, frozen",
+   "mean_diff": 0.5847063088733379,
+   "ci_lo": 0.39560779664502393,
+   "ci_hi": 0.7729678042011334,
+   "rel_pct": 0.45783570366438736,
+   "wins": 26,
+   "n": 30,
+   "p": 1.6838312149047852e-06,
+   "p_holm": 5.0514936447143555e-06
+  },
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Tuned, no exploration, frozen",
+   "mean_diff": 0.5096848833659564,
+   "ci_lo": 0.3115646193209898,
+   "ci_hi": 0.7135323024681909,
+   "rel_pct": 0.39885825737657044,
+   "wins": 22,
+   "n": 30,
+   "p": 0.00012333691120147705,
+   "p_holm": 0.0002466738224029541
+  }
+ ],
+ "R2_A_current": [
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Greedy ridge, tuned, online",
+   "mean_diff": 0.07825657834809809,
+   "ci_lo": -0.3291210149085525,
+   "ci_hi": 0.4905345809139432,
+   "rel_pct": 0.06103429087959183,
+   "wins": 14,
+   "n": 30,
+   "p": 0.8552717231214046,
+   "p_holm": 0.8552717231214046
+  },
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Greedy ridge, tuned, frozen",
+   "mean_diff": 0.6491517074681733,
+   "ci_lo": 0.3437400025539015,
+   "ci_hi": 0.9559542481012098,
+   "rel_pct": 0.5085542523654677,
+   "wins": 23,
+   "n": 30,
+   "p": 0.000283263623714447,
+   "p_holm": 0.0008497908711433411
+  },
+  {
+   "env": "A_current",
+   "reference": "Greedy ridge, tuned, online",
+   "comparator": "Greedy ridge, tuned, frozen",
+   "mean_diff": 0.5708951291200752,
+   "ci_lo": 0.1906416550862658,
+   "ci_hi": 0.9359842661700649,
+   "rel_pct": 0.44724698745860025,
+   "wins": 24,
+   "n": 30,
+   "p": 0.00993151031434536,
+   "p_holm": 0.01986302062869072
+  }
+ ],
+ "R4_A_current": [
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Linear eps-greedy, tuned",
+   "mean_diff": 0.3226910500363459,
+   "ci_lo": -0.09022330859628724,
+   "ci_hi": 0.7240285908743331,
+   "rel_pct": 0.2521556479844491,
+   "wins": 21,
+   "n": 30,
+   "p": 0.06666470877826214,
+   "p_holm": 0.13332941755652428
+  },
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Linear TS, tuned",
+   "mean_diff": 0.034931016627952734,
+   "ci_lo": -0.3451819862071069,
+   "ci_hi": 0.43238012705867207,
+   "rel_pct": 0.027234383403163472,
+   "wins": 16,
+   "n": 30,
+   "p": 0.8871948085725307,
+   "p_holm": 0.8871948085725307
+  }
+ ],
+ "R1_B_constrained": [
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Tuned, no exploration",
+   "mean_diff": -0.015036344782526119,
+   "ci_lo": -0.09572294743271173,
+   "ci_hi": 0.05569488421420266,
+   "rel_pct": -0.012780893172908914,
+   "wins": 12,
+   "n": 30,
+   "p": 0.9316935455667716,
+   "p_holm": 0.9316935455667716
+  },
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Tuned, frozen",
+   "mean_diff": 0.5574225312410657,
+   "ci_lo": 0.36764953769714176,
+   "ci_hi": 0.7554058678990081,
+   "rel_pct": 0.4761259369785387,
+   "wins": 25,
+   "n": 30,
+   "p": 7.994472980499268e-06,
+   "p_holm": 2.3983418941497803e-05
+  },
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Tuned, no exploration, frozen",
+   "mean_diff": 0.49740399432357235,
+   "ci_lo": 0.30009065079850117,
+   "ci_hi": 0.6968084420165783,
+   "rel_pct": 0.4246430346310571,
+   "wins": 23,
+   "n": 30,
+   "p": 6.286613643169403e-05,
+   "p_holm": 0.00012573227286338806
+  }
+ ],
+ "R2_B_constrained": [
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Greedy ridge, tuned, online",
+   "mean_diff": 0.024250921384587797,
+   "ci_lo": -0.288098904581999,
+   "ci_hi": 0.3203804107111793,
+   "rel_pct": 0.02062016928643088,
+   "wins": 16,
+   "n": 30,
+   "p": 0.7303419969975948,
+   "p_holm": 1.0
+  },
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Greedy ridge, tuned, frozen",
+   "mean_diff": 0.15715872527642366,
+   "ci_lo": -0.1528090778419175,
+   "ci_hi": 0.45481730024356587,
+   "rel_pct": 0.13378072685681427,
+   "wins": 17,
+   "n": 30,
+   "p": 0.2710056286305189,
+   "p_holm": 0.8130168858915567
+  },
+  {
+   "env": "B_constrained",
+   "reference": "Greedy ridge, tuned, online",
+   "comparator": "Greedy ridge, tuned, frozen",
+   "mean_diff": 0.13290780389183585,
+   "ci_lo": -0.1606001370298978,
+   "ci_hi": 0.4424346997418391,
+   "rel_pct": 0.11313722848234434,
+   "wins": 16,
+   "n": 30,
+   "p": 0.5978077705949545,
+   "p_holm": 1.0
+  }
+ ],
+ "R4_B_constrained": [
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Linear eps-greedy, tuned",
+   "mean_diff": 0.21170792027213756,
+   "ci_lo": -0.0993187541768838,
+   "ci_hi": 0.5473152961465163,
+   "rel_pct": 0.18029922918931032,
+   "wins": 17,
+   "n": 30,
+   "p": 0.28008678182959557,
+   "p_holm": 0.5601735636591911
+  },
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Linear TS, tuned",
+   "mean_diff": 0.09411604942218996,
+   "ci_lo": -0.25629283974948686,
+   "ci_hi": 0.455960698963848,
+   "rel_pct": 0.08007293397986062,
+   "wins": 16,
+   "n": 30,
+   "p": 0.8078304156661034,
+   "p_holm": 0.8078304156661034
+  }
+ ],
+ "R3_leads": [
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Per-channel GBM, tuned",
+   "mean_diff": 2.188062666284658,
+   "ci_lo": 1.7036206305454433,
+   "ci_hi": 2.64040274178745,
+   "rel_pct": 1.735076112564313,
+   "wins": 28,
+   "n": 30,
+   "p": 2.0489096641540527e-07,
+   "p_holm": 2.0489096641540527e-07
+  },
+  {
+   "env": "A_current",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Segment rule, tuned",
+   "mean_diff": 3.692329987676353,
+   "ci_lo": 3.032252160858513,
+   "ci_hi": 4.494554588906655,
+   "rel_pct": 2.963267684218976,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 1.4901161193847656e-08
+  },
+  {
+   "env": "B_cap_only",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Per-channel GBM, tuned",
+   "mean_diff": 3.707476262120105,
+   "ci_lo": 3.2689656993453067,
+   "ci_hi": 4.142902485912132,
+   "rel_pct": 3.1935152408528418,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 1.4901161193847656e-08
+  },
+  {
+   "env": "B_cap_only",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Segment rule, tuned",
+   "mean_diff": 4.161347805697862,
+   "ci_lo": 3.6215825391789167,
+   "ci_hi": 4.718186917433311,
+   "rel_pct": 3.598535909726355,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 1.4901161193847656e-08
+  },
+  {
+   "env": "B_fatigue_only",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Per-channel GBM, tuned",
+   "mean_diff": 2.0573742323037805,
+   "ci_lo": 1.6149569736097653,
+   "ci_hi": 2.469745917431291,
+   "rel_pct": 1.664933392378864,
+   "wins": 28,
+   "n": 30,
+   "p": 8.009374141693115e-08,
+   "p_holm": 1.601874828338623e-07
+  },
+  {
+   "env": "B_fatigue_only",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Segment rule, tuned",
+   "mean_diff": 3.7026975549398333,
+   "ci_lo": 3.0580154720499952,
+   "ci_hi": 4.463915673317117,
+   "rel_pct": 3.036848979209141,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 1.4901161193847656e-08
+  },
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Per-channel GBM, tuned",
+   "mean_diff": 3.642914606103635,
+   "ci_lo": 3.255816105943805,
+   "ci_hi": 4.054009498872298,
+   "rel_pct": 3.195844502857714,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 1.4901161193847656e-08
+  },
+  {
+   "env": "B_constrained",
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Segment rule, tuned",
+   "mean_diff": 4.200898726084387,
+   "ci_lo": 3.6947374239048156,
+   "ci_hi": 4.71216490027487,
+   "rel_pct": 3.7034798068127146,
+   "wins": 30,
+   "n": 30,
+   "p": 1.862645149230957e-09,
+   "p_holm": 1.4901161193847656e-08
+  }
+ ],
+ "R3_loss_vs_A": {
+  "B_cap_only": {
+   "HACO-PSO-LinUCB": 8.494280187960896,
+   "Default LinUCB": 9.826701352658077,
+   "Per-channel GBM, tuned": 10.013693783796342,
+   "Segment rule, tuned": 8.96329800598241
+  },
+  "B_fatigue_only": {
+   "HACO-PSO-LinUCB": 2.667314844802931,
+   "Default LinUCB": 2.4352866587477564,
+   "Per-channel GBM, tuned": 2.5366264108220378,
+   "Segment rule, tuned": 2.6776824120663747
+  },
+  "B_constrained": {
+   "HACO-PSO-LinUCB": 10.663630952633227,
+   "Default LinUCB": 11.794127970703585,
+   "Per-channel GBM, tuned": 12.118482892452192,
+   "Segment rule, tuned": 11.172199691041243
+  }
+ },
+ "R3_diag": {
+  "A_current|Default LinUCB": {
+   "fatigue_active": 0.054342418767869986,
+   "rm_blocked": 0.0
+  },
+  "A_current|Greedy ridge, tuned, frozen": {
+   "fatigue_active": 0.059919784807143835,
+   "rm_blocked": 0.0
+  },
+  "A_current|Greedy ridge, tuned, online": {
+   "fatigue_active": 0.05974253345757043,
+   "rm_blocked": 0.0
+  },
+  "A_current|HACO-PSO-LinUCB": {
+   "fatigue_active": 0.05950187598683564,
+   "rm_blocked": 0.0
+  },
+  "A_current|Linear TS, tuned": {
+   "fatigue_active": 0.05889187201819511,
+   "rm_blocked": 0.0
+  },
+  "A_current|Linear eps-greedy, tuned": {
+   "fatigue_active": 0.05964696165373515,
+   "rm_blocked": 0.0
+  },
+  "A_current|Per-channel GBM, tuned": {
+   "fatigue_active": 0.05919601342545872,
+   "rm_blocked": 0.0
+  },
+  "A_current|Segment rule, tuned": {
+   "fatigue_active": 0.06344983443954047,
+   "rm_blocked": 0.0
+  },
+  "A_current|Tuned, frozen": {
+   "fatigue_active": 0.060644039288857435,
+   "rm_blocked": 0.0
+  },
+  "A_current|Tuned, no exploration": {
+   "fatigue_active": 0.05960339310423579,
+   "rm_blocked": 0.0
+  },
+  "A_current|Tuned, no exploration, frozen": {
+   "fatigue_active": 0.06081569540930476,
+   "rm_blocked": 0.0
+  },
+  "B_cap_only|Default LinUCB": {
+   "fatigue_active": 0.04983436863136484,
+   "rm_blocked": 0.4112580259052952
+  },
+  "B_cap_only|HACO-PSO-LinUCB": {
+   "fatigue_active": 0.05724835156352426,
+   "rm_blocked": 0.21200335524895814
+  },
+  "B_cap_only|Per-channel GBM, tuned": {
+   "fatigue_active": 0.054423460069217965,
+   "rm_blocked": 0.3756651262169641
+  },
+  "B_cap_only|Segment rule, tuned": {
+   "fatigue_active": 0.058051757781974654,
+   "rm_blocked": 0.37636104069979565
+  },
+  "B_constrained|Default LinUCB": {
+   "fatigue_active": 0.0496605584449451,
+   "rm_blocked": 0.41155210036175954
+  },
+  "B_constrained|Greedy ridge, tuned, frozen": {
+   "fatigue_active": 0.05666649226763387,
+   "rm_blocked": 0.23719922819013253
+  },
+  "B_constrained|Greedy ridge, tuned, online": {
+   "fatigue_active": 0.056871384099283634,
+   "rm_blocked": 0.22830339145237327
+  },
+  "B_constrained|HACO-PSO-LinUCB": {
+   "fatigue_active": 0.0563918509708005,
+   "rm_blocked": 0.2170139807879736
+  },
+  "B_constrained|Linear TS, tuned": {
+   "fatigue_active": 0.05645323445932136,
+   "rm_blocked": 0.21903639171589004
+  },
+  "B_constrained|Linear eps-greedy, tuned": {
+   "fatigue_active": 0.05675865581720182,
+   "rm_blocked": 0.23258691548811744
+  },
+  "B_constrained|Per-channel GBM, tuned": {
+   "fatigue_active": 0.054543472070418084,
+   "rm_blocked": 0.3754551052148639
+  },
+  "B_constrained|Segment rule, tuned": {
+   "fatigue_active": 0.05797976354151389,
+   "rm_blocked": 0.37831450878783085
+  },
+  "B_constrained|Tuned, frozen": {
+   "fatigue_active": 0.05665867387176225,
+   "rm_blocked": 0.21243108447453757
+  },
+  "B_constrained|Tuned, no exploration": {
+   "fatigue_active": 0.056462750999863566,
+   "rm_blocked": 0.21696601395632026
+  },
+  "B_constrained|Tuned, no exploration, frozen": {
+   "fatigue_active": 0.05652584149545254,
+   "rm_blocked": 0.21099510771153793
+  },
+  "B_fatigue_only|Default LinUCB": {
+   "fatigue_active": 0.05403560528514647,
+   "rm_blocked": 0.0
+  },
+  "B_fatigue_only|HACO-PSO-LinUCB": {
+   "fatigue_active": 0.059570081799667496,
+   "rm_blocked": 0.0
+  },
+  "B_fatigue_only|Per-channel GBM, tuned": {
+   "fatigue_active": 0.059295033194423495,
+   "rm_blocked": 0.0
+  },
+  "B_fatigue_only|Segment rule, tuned": {
+   "fatigue_active": 0.06344983443954047,
+   "rm_blocked": 0.0
+  }
+ },
+ "runtime_s": {
+  "A_current|Greedy ridge, tuned, frozen": 7.765324703852335,
+  "A_current|Greedy ridge, tuned, online": 11.281648262341816,
+  "A_current|HACO-PSO-LinUCB": 10.97462211449941,
+  "A_current|Linear TS, tuned": 11.806732010841369,
+  "A_current|Linear eps-greedy, tuned": 8.187352927525838,
+  "B_cap_only|HACO-PSO-LinUCB": 11.429340489705403,
+  "B_constrained|Greedy ridge, tuned, frozen": 8.505570809046427,
+  "B_constrained|Greedy ridge, tuned, online": 11.674341781934102,
+  "B_constrained|HACO-PSO-LinUCB": 11.730961799621582,
+  "B_constrained|Linear TS, tuned": 12.977268679936726,
+  "B_constrained|Linear eps-greedy, tuned": 7.656434512138366,
+  "B_fatigue_only|HACO-PSO-LinUCB": 11.238291517893474
+ }
+}

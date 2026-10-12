@@ -1,0 +1,2 @@
+{"seed": 214, "method": "Per-channel GBM, tuned", "value_per_1000": 125.7492443807816, "accuracy_pct": 72.80279842588544, "conversion_pct": 13.679479167709413, "cost_thb": 33.136641888937476, "infeasible_pct": 0.0}
+{"seed": 214, "method": "Segment rule, tuned", "value_per_1000": 124.29075331268345, "accuracy_pct": 73.85220813292523, "conversion_pct": 13.700633413180604, "cost_thb": 38.146742457367736, "infeasible_pct": 0.0}

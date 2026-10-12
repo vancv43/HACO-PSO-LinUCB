@@ -1,0 +1,169 @@
+{
+ "worlds": "101-130",
+ "proposed": "HACO-PSO",
+ "H1_status": "MIXED",
+ "H2_status": "NOT SUPPORTED",
+ "H1": [
+  {
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Segment best-channel rule [train+val]",
+   "mean_diff": 3.603037743421945,
+   "ci_lo": 2.7312455327497083,
+   "ci_hi": 4.548353464786018,
+   "rel_pct": 2.884056882074065,
+   "wins": 29,
+   "n": 30,
+   "p_wilcoxon": 3.725290298461914e-09,
+   "p_holm": 3.725290298461914e-09
+  },
+  {
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Per-channel GBM, greedy [train+val]",
+   "mean_diff": 11.718174944395127,
+   "ci_lo": 10.913736479051638,
+   "ci_hi": 12.568764988624345,
+   "rel_pct": 10.031450763585408,
+   "wins": 30,
+   "n": 30,
+   "p_wilcoxon": 1.862645149230957e-09,
+   "p_holm": 3.725290298461914e-09
+  },
+  {
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "LinUCB default alpha=1 [train+val]",
+   "mean_diff": 10.390700004237885,
+   "ci_lo": 9.707825591899057,
+   "ci_hi": 11.046245889277344,
+   "rel_pct": 8.795106378227468,
+   "wins": 30,
+   "n": 30,
+   "p_wilcoxon": 1.862645149230957e-09,
+   "p_holm": NaN
+  }
+ ],
+ "H2_test": [
+  {
+   "reference": "HACO-PSO",
+   "comparator": "RS",
+   "mean_diff": 0.5642468231190289,
+   "ci_lo": 0.11557577046467805,
+   "ci_hi": 1.0568857455299376,
+   "rel_pct": 0.44092707201700226,
+   "wins": 18,
+   "n": 30,
+   "p_wilcoxon": 0.02084985189139843,
+   "p_holm": 0.10424925945699215
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "GA",
+   "mean_diff": -0.09931833876037785,
+   "ci_lo": -0.43540374239571783,
+   "ci_hi": 0.23168050042793353,
+   "rel_pct": -0.07721131019766235,
+   "wins": 13,
+   "n": 30,
+   "p_wilcoxon": 0.6554384250193834,
+   "p_holm": 1.0
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "BPSO",
+   "mean_diff": -0.30189143768012294,
+   "ci_lo": -0.675572505525395,
+   "ci_hi": 0.03112870929182629,
+   "rel_pct": -0.23432513160355528,
+   "wins": 12,
+   "n": 30,
+   "p_wilcoxon": 0.08406547829508781,
+   "p_holm": 0.33626191318035126
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "ACO",
+   "mean_diff": -0.08448968071769655,
+   "ci_lo": -0.41495696051429515,
+   "ci_hi": 0.22336376088511964,
+   "rel_pct": -0.0656909000824519,
+   "wins": 17,
+   "n": 30,
+   "p_wilcoxon": 0.9676735773682594,
+   "p_holm": 1.0
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "DE",
+   "mean_diff": 0.08349070998357982,
+   "ci_lo": -0.309083556597222,
+   "ci_hi": 0.49182570268904324,
+   "rel_pct": 0.06499909041333407,
+   "wins": 14,
+   "n": 30,
+   "p_wilcoxon": 0.8871948085725307,
+   "p_holm": 1.0
+  }
+ ],
+ "H2_val": [
+  {
+   "reference": "HACO-PSO",
+   "comparator": "RS",
+   "mean_diff": 0.8860656899679038,
+   "ci_lo": 0.5957840727995668,
+   "ci_hi": 1.169796900855741,
+   "rel_pct": 0.7069347575099278,
+   "wins": 27,
+   "n": 30,
+   "p_wilcoxon": 9.220093488693237e-06,
+   "p_holm": 4.6100467443466187e-05
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "GA",
+   "mean_diff": 0.04652217799583648,
+   "ci_lo": -0.17350322173219504,
+   "ci_hi": 0.25376846378589263,
+   "rel_pct": 0.03687008773926732,
+   "wins": 16,
+   "n": 30,
+   "p_wilcoxon": 0.6554384250193834,
+   "p_holm": 1.0
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "BPSO",
+   "mean_diff": -0.02170689550807623,
+   "ci_lo": -0.29598213535907997,
+   "ci_hi": 0.23751234697735116,
+   "rel_pct": -0.017194005997224884,
+   "wins": 17,
+   "n": 30,
+   "p_wilcoxon": 0.9838335812091827,
+   "p_holm": 1.0
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "ACO",
+   "mean_diff": 0.1280358041315779,
+   "ci_lo": -0.10259321616365977,
+   "ci_hi": 0.3452999403848784,
+   "rel_pct": 0.10153744206852981,
+   "wins": 20,
+   "n": 30,
+   "p_wilcoxon": 0.2621222734451294,
+   "p_holm": 0.7863668203353882
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "DE",
+   "mean_diff": 0.5921999381802304,
+   "ci_lo": 0.29746106029280117,
+   "ci_hi": 0.9180433513653435,
+   "rel_pct": 0.4713730320871113,
+   "wins": 21,
+   "n": 30,
+   "p_wilcoxon": 0.0011314544826745987,
+   "p_holm": 0.004525817930698395
+  }
+ ],
+ "practical_vs_segment_per_100k": 360.3037743421945
+}

@@ -1,0 +1,70 @@
+{"method": "Logged business policy", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 96.4596456074129, "rm_call_share": 0.08732048375824322, "digital_share": 0.7195677362891576}
+{"method": "Logged business policy", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 81.433807573368, "rm_call_share": 0.12531985099221843, "digital_share": 0.6809452494750917}
+{"method": "Logged business policy", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 73.75552303005914, "rm_call_share": 0.19648932103653646, "digital_share": 0.5994356007782567}
+{"method": "Logged business policy", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 86.00232308695412, "rm_call_share": 0.24966408717477626, "digital_share": 0.5140905012300433}
+{"method": "Logged business policy", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 103.56870507230698, "rm_call_share": 0.13886338190324665, "digital_share": 0.6771251966996468}
+{"method": "Uniform random (feasible)", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 67.63922668882385, "rm_call_share": 0.11597374179431072, "digital_share": 0.5951859956236324}
+{"method": "Uniform random (feasible)", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 61.06475166585419, "rm_call_share": 0.1375, "digital_share": 0.59125}
+{"method": "Uniform random (feasible)", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 60.43795202463302, "rm_call_share": 0.1970260223048327, "digital_share": 0.5055762081784386}
+{"method": "Uniform random (feasible)", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 66.2496836422863, "rm_call_share": 0.15426997245179064, "digital_share": 0.5316804407713499}
+{"method": "Uniform random (feasible)", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 81.92815768658575, "rm_call_share": 0.1568627450980392, "digital_share": 0.5735294117647058}
+{"method": "Oracle (upper bound)", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 162.76310083718732, "rm_call_share": 0.015317286652078774, "digital_share": 0.975929978118162}
+{"method": "Oracle (upper bound)", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 126.55062006960895, "rm_call_share": 0.115, "digital_share": 0.875}
+{"method": "Oracle (upper bound)", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 111.85801946282012, "rm_call_share": 0.31784386617100374, "digital_share": 0.5929368029739777}
+{"method": "Oracle (upper bound)", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 137.5659260246026, "rm_call_share": 0.4931129476584022, "digital_share": 0.256198347107438}
+{"method": "Oracle (upper bound)", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 201.16160787745028, "rm_call_share": 0.00980392156862745, "digital_share": 0.9754901960784313}
+{"method": "Segment best-channel rule", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 158.22074369370608, "rm_call_share": 0.010940919037199124, "digital_share": 0.9890590809628009}
+{"method": "Segment best-channel rule", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 119.0894884941418, "rm_call_share": 0.035, "digital_share": 0.9475}
+{"method": "Segment best-channel rule", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 98.0842101135288, "rm_call_share": 0.3141263940520446, "digital_share": 0.6747211895910781}
+{"method": "Segment best-channel rule", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 126.53818740423806, "rm_call_share": 0.5619834710743802, "digital_share": 0.23415977961432508}
+{"method": "Segment best-channel rule", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 200.2281103438889, "rm_call_share": 0.0, "digital_share": 0.9852941176470589}
+{"method": "Per-channel GBM, greedy", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 138.43817918965522, "rm_call_share": 0.0350109409190372, "digital_share": 0.925601750547046}
+{"method": "Per-channel GBM, greedy", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 108.04336952390639, "rm_call_share": 0.055, "digital_share": 0.91}
+{"method": "Per-channel GBM, greedy", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 92.55088878905688, "rm_call_share": 0.16356877323420074, "digital_share": 0.7732342007434945}
+{"method": "Per-channel GBM, greedy", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 100.3836309828596, "rm_call_share": 0.2975206611570248, "digital_share": 0.4931129476584022}
+{"method": "Per-channel GBM, greedy", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 177.38537813210334, "rm_call_share": 0.014705882352941176, "digital_share": 0.9411764705882353}
+{"method": "LinUCB (proposed)", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 138.78895443270142, "rm_call_share": 0.08096280087527352, "digital_share": 0.8555798687089715}
+{"method": "LinUCB (proposed)", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 103.7287208482179, "rm_call_share": 0.13375, "digital_share": 0.80125}
+{"method": "LinUCB (proposed)", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 94.2203667965068, "rm_call_share": 0.3141263940520446, "digital_share": 0.5278810408921933}
+{"method": "LinUCB (proposed)", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 129.8168396684493, "rm_call_share": 0.5068870523415978, "digital_share": 0.22865013774104684}
+{"method": "LinUCB (proposed)", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 189.53107212733698, "rm_call_share": 0.014705882352941176, "digital_share": 0.9019607843137255}
+{"method": "Linear TS (proposed)", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 138.01211641696173, "rm_call_share": 0.05470459518599562, "digital_share": 0.8818380743982495}
+{"method": "Linear TS (proposed)", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 105.00046760707626, "rm_call_share": 0.09625, "digital_share": 0.80125}
+{"method": "Linear TS (proposed)", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 89.65026840870246, "rm_call_share": 0.24721189591078066, "digital_share": 0.5985130111524164}
+{"method": "Linear TS (proposed)", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 121.06880912848278, "rm_call_share": 0.4325068870523416, "digital_share": 0.2809917355371901}
+{"method": "Linear TS (proposed)", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 182.31616509238705, "rm_call_share": 0.014705882352941176, "digital_share": 0.8676470588235294}
+{"method": "Linear eps-greedy", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 149.30878494515326, "rm_call_share": 0.04814004376367615, "digital_share": 0.9015317286652079}
+{"method": "Linear eps-greedy", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 109.54590744339392, "rm_call_share": 0.11125, "digital_share": 0.81375}
+{"method": "Linear eps-greedy", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 97.11163048005719, "rm_call_share": 0.2825278810408922, "digital_share": 0.5780669144981413}
+{"method": "Linear eps-greedy", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 128.67919161738823, "rm_call_share": 0.4820936639118457, "digital_share": 0.23140495867768596}
+{"method": "Linear eps-greedy", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 186.59191414974882, "rm_call_share": 0.024509803921568627, "digital_share": 0.9019607843137255}
+{"method": "A1: LinUCB without mask", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 108.82337489258555, "rm_call_share": 0.12035010940919037, "digital_share": 0.8643326039387309}
+{"method": "A1: LinUCB without mask", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 69.00156534167522, "rm_call_share": 0.20125, "digital_share": 0.7925}
+{"method": "A1: LinUCB without mask", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 61.30627518874184, "rm_call_share": 0.42379182156133827, "digital_share": 0.5576208178438662}
+{"method": "A1: LinUCB without mask", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 77.76337038752284, "rm_call_share": 0.6859504132231405, "digital_share": 0.2837465564738292}
+{"method": "A1: LinUCB without mask", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 160.47249715163056, "rm_call_share": 0.0, "digital_share": 0.9705882352941176}
+{"method": "A2: LinUCB without cost (lambda=0)", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 135.4023171078075, "rm_call_share": 0.12910284463894967, "digital_share": 0.811816192560175}
+{"method": "A2: LinUCB without cost (lambda=0)", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 100.41859012032539, "rm_call_share": 0.2025, "digital_share": 0.735}
+{"method": "A2: LinUCB without cost (lambda=0)", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 95.00960189814738, "rm_call_share": 0.395910780669145, "digital_share": 0.4739776951672863}
+{"method": "A2: LinUCB without cost (lambda=0)", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 130.21156639058694, "rm_call_share": 0.5316804407713499, "digital_share": 0.21487603305785125}
+{"method": "A2: LinUCB without cost (lambda=0)", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 186.37070455661504, "rm_call_share": 0.029411764705882353, "digital_share": 0.8774509803921569}
+{"method": "A3: LinUCB segment-only context", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 157.9124263677523, "rm_call_share": 0.05032822757111598, "digital_share": 0.9387308533916849}
+{"method": "A3: LinUCB segment-only context", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 116.69615434444574, "rm_call_share": 0.13125, "digital_share": 0.8475}
+{"method": "A3: LinUCB segment-only context", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 97.9987470805956, "rm_call_share": 0.2843866171003718, "digital_share": 0.6617100371747212}
+{"method": "A3: LinUCB segment-only context", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 120.14007387836232, "rm_call_share": 0.3884297520661157, "digital_share": 0.509641873278237}
+{"method": "A3: LinUCB segment-only context", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 192.17001414490267, "rm_call_share": 0.06862745098039216, "digital_share": 0.9166666666666666}
+{"method": "A4: LinUCB without behaviour features", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 145.49563979880656, "rm_call_share": 0.061269146608315096, "digital_share": 0.9168490153172867}
+{"method": "A4: LinUCB without behaviour features", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 98.36609422192971, "rm_call_share": 0.1175, "digital_share": 0.83625}
+{"method": "A4: LinUCB without behaviour features", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 87.65183432665367, "rm_call_share": 0.3048327137546468, "digital_share": 0.5743494423791822}
+{"method": "A4: LinUCB without behaviour features", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 126.0965278578225, "rm_call_share": 0.5261707988980716, "digital_share": 0.21212121212121213}
+{"method": "A4: LinUCB without behaviour features", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 191.08812864568776, "rm_call_share": 0.024509803921568627, "digital_share": 0.8872549019607843}
+{"method": "A5: Linear greedy (no exploration)", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 151.9593118763905, "rm_call_share": 0.045951859956236324, "digital_share": 0.9190371991247265}
+{"method": "A5: Linear greedy (no exploration)", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 111.88721767253507, "rm_call_share": 0.11625, "digital_share": 0.81625}
+{"method": "A5: Linear greedy (no exploration)", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 97.97938653757086, "rm_call_share": 0.2936802973977695, "digital_share": 0.5743494423791822}
+{"method": "A5: Linear greedy (no exploration)", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 130.68305338668173, "rm_call_share": 0.4903581267217631, "digital_share": 0.23415977961432508}
+{"method": "A5: Linear greedy (no exploration)", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 195.11852407827158, "rm_call_share": 0.00980392156862745, "digital_share": 0.9313725490196079}
+{"method": "A6: Linear frozen after train (no online update)", "seed": 18, "age_band": "35-44", "n": 457, "value_per_1000": 149.88302917538115, "rm_call_share": 0.045951859956236324, "digital_share": 0.925601750547046}
+{"method": "A6: Linear frozen after train (no online update)", "seed": 18, "age_band": "45-54", "n": 800, "value_per_1000": 108.05690621866523, "rm_call_share": 0.095, "digital_share": 0.8375}
+{"method": "A6: Linear frozen after train (no online update)", "seed": 18, "age_band": "55-64", "n": 538, "value_per_1000": 93.39704799574518, "rm_call_share": 0.2788104089219331, "digital_share": 0.6022304832713755}
+{"method": "A6: Linear frozen after train (no online update)", "seed": 18, "age_band": "65+", "n": 363, "value_per_1000": 130.2697836884769, "rm_call_share": 0.47107438016528924, "digital_share": 0.26721763085399447}
+{"method": "A6: Linear frozen after train (no online update)", "seed": 18, "age_band": "<35", "n": 204, "value_per_1000": 189.71541241514478, "rm_call_share": 0.0196078431372549, "digital_share": 0.9068627450980392}

@@ -1,0 +1,60 @@
+{"seed": 3, "method": "Segment best-channel rule", "block": 1, "n": 227.0, "value_per_1000": 130.38514843918242}
+{"seed": 3, "method": "Segment best-channel rule", "block": 2, "n": 228.0, "value_per_1000": 120.34099889121819}
+{"seed": 3, "method": "Segment best-channel rule", "block": 3, "n": 228.0, "value_per_1000": 140.21064022944776}
+{"seed": 3, "method": "Segment best-channel rule", "block": 4, "n": 228.0, "value_per_1000": 124.98445811170708}
+{"seed": 3, "method": "Segment best-channel rule", "block": 5, "n": 228.0, "value_per_1000": 117.14789446796769}
+{"seed": 3, "method": "Segment best-channel rule", "block": 6, "n": 227.0, "value_per_1000": 125.29148335509824}
+{"seed": 3, "method": "Segment best-channel rule", "block": 7, "n": 228.0, "value_per_1000": 119.44914192705207}
+{"seed": 3, "method": "Segment best-channel rule", "block": 8, "n": 228.0, "value_per_1000": 112.29398915449757}
+{"seed": 3, "method": "Segment best-channel rule", "block": 9, "n": 228.0, "value_per_1000": 124.69822690799145}
+{"seed": 3, "method": "Segment best-channel rule", "block": 10, "n": 228.0, "value_per_1000": 136.42485191480495}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 1, "n": 227.0, "value_per_1000": 122.33801387926512}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 2, "n": 228.0, "value_per_1000": 101.94658859408962}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 3, "n": 228.0, "value_per_1000": 129.34118506742766}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 4, "n": 228.0, "value_per_1000": 106.17392251081334}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 5, "n": 228.0, "value_per_1000": 105.33500033099195}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 6, "n": 227.0, "value_per_1000": 105.09477821934024}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 7, "n": 228.0, "value_per_1000": 113.80216013886823}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 8, "n": 228.0, "value_per_1000": 101.99235718412058}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 9, "n": 228.0, "value_per_1000": 116.32060342553197}
+{"seed": 3, "method": "Per-channel GBM, greedy", "block": 10, "n": 228.0, "value_per_1000": 122.14032226740257}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 1, "n": 227.0, "value_per_1000": 109.29918917323837}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 2, "n": 228.0, "value_per_1000": 108.38717635622888}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 3, "n": 228.0, "value_per_1000": 134.12404371419964}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 4, "n": 228.0, "value_per_1000": 113.4726396198724}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 5, "n": 228.0, "value_per_1000": 109.17164911782635}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 6, "n": 227.0, "value_per_1000": 117.21663728670752}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 7, "n": 228.0, "value_per_1000": 114.10944762235157}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 8, "n": 228.0, "value_per_1000": 106.87704486098681}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 9, "n": 228.0, "value_per_1000": 119.44528895534029}
+{"seed": 3, "method": "LinUCB (proposed)", "block": 10, "n": 228.0, "value_per_1000": 131.11058497298663}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 1, "n": 227.0, "value_per_1000": 107.51054009184146}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 2, "n": 228.0, "value_per_1000": 103.60579662137906}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 3, "n": 228.0, "value_per_1000": 117.53542777295637}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 4, "n": 228.0, "value_per_1000": 103.36902665886988}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 5, "n": 228.0, "value_per_1000": 99.61966438128948}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 6, "n": 227.0, "value_per_1000": 106.64143058532113}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 7, "n": 228.0, "value_per_1000": 109.87906237567152}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 8, "n": 228.0, "value_per_1000": 101.03306387663356}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 9, "n": 228.0, "value_per_1000": 113.5029267533896}
+{"seed": 3, "method": "Linear TS (proposed)", "block": 10, "n": 228.0, "value_per_1000": 127.063489742827}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 1, "n": 227.0, "value_per_1000": 118.56464607171306}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 2, "n": 228.0, "value_per_1000": 112.48062699128864}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 3, "n": 228.0, "value_per_1000": 136.48198235044944}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 4, "n": 228.0, "value_per_1000": 118.12922531071099}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 5, "n": 228.0, "value_per_1000": 109.60903456582298}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 6, "n": 227.0, "value_per_1000": 119.87740166269032}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 7, "n": 228.0, "value_per_1000": 119.43319602788034}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 8, "n": 228.0, "value_per_1000": 109.7420851005328}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 9, "n": 228.0, "value_per_1000": 124.50955118164984}
+{"seed": 3, "method": "A5: Linear greedy (no exploration)", "block": 10, "n": 228.0, "value_per_1000": 135.10419502632027}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 1, "n": 227.0, "value_per_1000": 117.51240873572617}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 2, "n": 228.0, "value_per_1000": 109.24716292270342}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 3, "n": 228.0, "value_per_1000": 129.88132820518823}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 4, "n": 228.0, "value_per_1000": 111.52736512310581}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 5, "n": 228.0, "value_per_1000": 104.34129074534927}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 6, "n": 227.0, "value_per_1000": 111.26696365827236}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 7, "n": 228.0, "value_per_1000": 108.98303650729783}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 8, "n": 228.0, "value_per_1000": 98.88541481166033}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 9, "n": 228.0, "value_per_1000": 110.48243636996389}
+{"seed": 3, "method": "A6: Linear frozen after train (no online update)", "block": 10, "n": 228.0, "value_per_1000": 119.03338446970898}

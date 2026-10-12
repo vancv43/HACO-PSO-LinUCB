@@ -1,0 +1,169 @@
+{
+ "worlds": "201-230",
+ "proposed": "HACO-PSO",
+ "H1_status": "NOT SUPPORTED",
+ "H2_status": "NOT SUPPORTED",
+ "H1": [
+  {
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Segment best-channel rule [train+val]",
+   "mean_diff": 3.3593547806045665,
+   "ci_lo": 2.6344937147195684,
+   "ci_hi": 4.091433162750771,
+   "rel_pct": 2.726358270897051,
+   "wins": 30,
+   "n": 30,
+   "p_wilcoxon": 1.862645149230957e-09,
+   "p_holm": 3.725290298461914e-09
+  },
+  {
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "Per-channel GBM, greedy [train+val]",
+   "mean_diff": 10.596827085135038,
+   "ci_lo": 9.77814038156067,
+   "ci_hi": 11.445875118645635,
+   "rel_pct": 9.136756524746625,
+   "wins": 30,
+   "n": 30,
+   "p_wilcoxon": 1.862645149230957e-09,
+   "p_holm": 3.725290298461914e-09
+  },
+  {
+   "reference": "HACO-PSO-LinUCB",
+   "comparator": "LinUCB default alpha=1 [train+val]",
+   "mean_diff": 9.762123908896582,
+   "ci_lo": 9.027487635118192,
+   "ci_hi": 10.50966595833929,
+   "rel_pct": 8.356917592922027,
+   "wins": 30,
+   "n": 30,
+   "p_wilcoxon": 1.862645149230957e-09,
+   "p_holm": NaN
+  }
+ ],
+ "H2_test": [
+  {
+   "reference": "HACO-PSO",
+   "comparator": "RS",
+   "mean_diff": 0.3048792342246728,
+   "ci_lo": -0.03622947614888513,
+   "ci_hi": 0.6367658692698311,
+   "rel_pct": 0.2414461752353291,
+   "wins": 19,
+   "n": 30,
+   "p_wilcoxon": 0.07324407435953617,
+   "p_holm": 0.24226092547178268
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "GA",
+   "mean_diff": -0.16153492374013703,
+   "ci_lo": -0.4897135083813746,
+   "ci_hi": 0.1781116842013248,
+   "rel_pct": -0.12745524392099242,
+   "wins": 13,
+   "n": 30,
+   "p_wilcoxon": 0.28008678182959557,
+   "p_holm": 0.5601735636591911
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "BPSO",
+   "mean_diff": -0.4985362762216482,
+   "ci_lo": -0.801115620085924,
+   "ci_hi": -0.17274092740685545,
+   "rel_pct": -0.39231487423389494,
+   "wins": 9,
+   "n": 30,
+   "p_wilcoxon": 0.00466480478644371,
+   "p_holm": 0.02332402393221855
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "ACO",
+   "mean_diff": -0.29206774652572703,
+   "ci_lo": -0.5676692734429912,
+   "ci_hi": -0.028142034096837132,
+   "rel_pct": -0.23021192224443215,
+   "wins": 12,
+   "n": 30,
+   "p_wilcoxon": 0.06056523136794567,
+   "p_holm": 0.24226092547178268
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "DE",
+   "mean_diff": -0.04733925364571358,
+   "ci_lo": -0.41858659752077043,
+   "ci_hi": 0.32713598277669376,
+   "rel_pct": -0.03738558443893446,
+   "wins": 15,
+   "n": 30,
+   "p_wilcoxon": 0.8871948085725307,
+   "p_holm": 0.8871948085725307
+  }
+ ],
+ "H2_val": [
+  {
+   "reference": "HACO-PSO",
+   "comparator": "RS",
+   "mean_diff": 0.6973918625623757,
+   "ci_lo": 0.4299023878936332,
+   "ci_hi": 0.9570575505012933,
+   "rel_pct": 0.5629863228816255,
+   "wins": 25,
+   "n": 30,
+   "p_wilcoxon": 4.968419671058655e-05,
+   "p_holm": 0.00024842098355293274
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "GA",
+   "mean_diff": -0.11543557076602155,
+   "ci_lo": -0.39361095559605064,
+   "ci_hi": 0.1700619249079683,
+   "rel_pct": -0.09258064513977382,
+   "wins": 14,
+   "n": 30,
+   "p_wilcoxon": 0.42795460671186447,
+   "p_holm": 0.8559092134237289
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "BPSO",
+   "mean_diff": -0.351356816228846,
+   "ci_lo": -0.5776514725769973,
+   "ci_hi": -0.12085749413226694,
+   "rel_pct": -0.2812600000521762,
+   "wins": 10,
+   "n": 30,
+   "p_wilcoxon": 0.010598260909318924,
+   "p_holm": 0.03179478272795677
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "ACO",
+   "mean_diff": -0.0056643485646105775,
+   "ci_lo": -0.2772367266571401,
+   "ci_hi": 0.27522650751901556,
+   "rel_pct": -0.004546875159695073,
+   "wins": 15,
+   "n": 30,
+   "p_wilcoxon": 0.935398668050766,
+   "p_holm": 0.935398668050766
+  },
+  {
+   "reference": "HACO-PSO",
+   "comparator": "DE",
+   "mean_diff": 0.556041538625551,
+   "ci_lo": 0.26248880719190265,
+   "ci_hi": 0.8549813469255838,
+   "rel_pct": 0.44836625682781106,
+   "wins": 22,
+   "n": 30,
+   "p_wilcoxon": 0.0018640067428350449,
+   "p_holm": 0.0074560269713401794
+  }
+ ],
+ "practical_vs_segment_per_100k": 335.93547806045666
+}

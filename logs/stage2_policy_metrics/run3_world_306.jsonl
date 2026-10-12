@@ -1,0 +1,7 @@
+{"run": "run3", "seed": 306, "method": "HACO-PSO-LinUCB", "value_per_1000": 127.08921775198651, "accuracy_pct": 77.80634104541559, "conversion_pct": 13.610397067972146, "cost_thb": 27.0442587832048, "infeasible_pct": 0.0}
+{"run": "run3", "seed": 306, "method": "Segment rule", "value_per_1000": 125.81041827630307, "accuracy_pct": 76.2210796915167, "conversion_pct": 13.406130373759984, "cost_thb": 24.75265638389032, "infeasible_pct": 0.0}
+{"run": "run3", "seed": 306, "method": "Per-channel GBM", "value_per_1000": 119.33213255438213, "accuracy_pct": 69.4515852613539, "conversion_pct": 12.629691404538471, "cost_thb": 20.894344473007713, "infeasible_pct": 0.0}
+{"run": "run3", "seed": 306, "method": "Untuned LinUCB", "value_per_1000": 115.64894683381829, "accuracy_pct": 65.89545844044558, "conversion_pct": 12.477942384038784, "cost_thb": 27.39143101970866, "infeasible_pct": 0.0}
+{"run": "run3", "seed": 306, "method": "Oracle", "value_per_1000": 134.28688108506773, "accuracy_pct": 100.0, "conversion_pct": 14.305460459263694, "cost_thb": 26.3031705227078, "infeasible_pct": 0.0}
+{"run": "run3", "seed": 306, "method": "Logged policy", "value_per_1000": 85.03823423961092, "accuracy_pct": 44.93219996062352, "conversion_pct": 9.325520347981676, "cost_thb": 24.650907720617518, "infeasible_pct": 0.0}
+{"run": "run3", "seed": 306, "method": "Uniform feasible", "value_per_1000": 64.97713301057759, "accuracy_pct": 32.18009140245644, "conversion_pct": 7.333218632867718, "cost_thb": 25.06515995429877, "infeasible_pct": 0.0}

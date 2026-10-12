@@ -1,0 +1,193 @@
+{
+ "worlds": "301-330",
+ "proposed": "HACO-PSO-GA",
+ "H1_status": "NOT SUPPORTED",
+ "H2_status": "NOT SUPPORTED",
+ "H1": [
+  {
+   "reference": "HACO-PSO-GA-LinUCB",
+   "comparator": "Segment best-channel rule [train+val]",
+   "mean_diff": 3.198616294559192,
+   "ci_lo": 2.1658457869613734,
+   "ci_hi": 4.307661852511483,
+   "rel_pct": 2.5490966334129923,
+   "wins": 28,
+   "n": 30,
+   "p_wilcoxon": 4.6566128730773926e-08,
+   "p_holm": 4.6566128730773926e-08
+  },
+  {
+   "reference": "HACO-PSO-GA-LinUCB",
+   "comparator": "Per-channel GBM, greedy [train+val]",
+   "mean_diff": 10.58164074489922,
+   "ci_lo": 9.856834116281453,
+   "ci_hi": 11.320500111441001,
+   "rel_pct": 8.960099199523246,
+   "wins": 30,
+   "n": 30,
+   "p_wilcoxon": 1.862645149230957e-09,
+   "p_holm": 3.725290298461914e-09
+  },
+  {
+   "reference": "HACO-PSO-GA-LinUCB",
+   "comparator": "LinUCB default alpha=1 [train+val]",
+   "mean_diff": 9.943863311815653,
+   "ci_lo": 9.128341682992929,
+   "ci_hi": 10.72913210121787,
+   "rel_pct": 8.374827703787092,
+   "wins": 30,
+   "n": 30,
+   "p_wilcoxon": 1.862645149230957e-09,
+   "p_holm": NaN
+  }
+ ],
+ "H2_test": [
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "RS",
+   "mean_diff": 0.5717958667387583,
+   "ci_lo": 0.21242290312433618,
+   "ci_hi": 0.9421642790760897,
+   "rel_pct": 0.4463416873890359,
+   "wins": 21,
+   "n": 30,
+   "p_wilcoxon": 0.008705463260412216,
+   "p_holm": 0.0522327795624733
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "GA",
+   "mean_diff": -0.2933437605895866,
+   "ci_lo": -0.5631519171334138,
+   "ci_hi": -0.051808431774042964,
+   "rel_pct": -0.22744702225867702,
+   "wins": 14,
+   "n": 30,
+   "p_wilcoxon": 0.17059839516878128,
+   "p_holm": 0.6823935806751251
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "BPSO",
+   "mean_diff": -0.36767842177471927,
+   "ci_lo": -0.6703672247487531,
+   "ci_hi": -0.062360112624659965,
+   "rel_pct": -0.284918929953401,
+   "wins": 12,
+   "n": 30,
+   "p_wilcoxon": 0.027741437777876854,
+   "p_holm": 0.13870718888938427
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "ACO",
+   "mean_diff": -0.11639563364055097,
+   "ci_lo": -0.5348415162696268,
+   "ci_hi": 0.3163432979312626,
+   "rel_pct": -0.09037250983556698,
+   "wins": 15,
+   "n": 30,
+   "p_wilcoxon": 0.5158484429121017,
+   "p_holm": 1.0
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "DE",
+   "mean_diff": 0.15559757681635206,
+   "ci_lo": -0.29353884439258165,
+   "ci_hi": 0.5937654299783006,
+   "rel_pct": 0.12106555781391357,
+   "wins": 19,
+   "n": 30,
+   "p_wilcoxon": 0.3817984350025654,
+   "p_holm": 1.0
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "HACO-PSO",
+   "mean_diff": -0.09276657996664994,
+   "ci_lo": -0.4177895058635102,
+   "ci_hi": 0.24195746724365425,
+   "rel_pct": -0.07203953226182619,
+   "wins": 13,
+   "n": 30,
+   "p_wilcoxon": 0.4898460879921913,
+   "p_holm": 1.0
+  }
+ ],
+ "H2_val": [
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "RS",
+   "mean_diff": 0.4435097569465739,
+   "ci_lo": 0.11842792873511114,
+   "ci_hi": 0.7683549787759522,
+   "rel_pct": 0.3549657493391696,
+   "wins": 21,
+   "n": 30,
+   "p_wilcoxon": 0.01283373311161995,
+   "p_holm": 0.04352731630206108
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "GA",
+   "mean_diff": -0.37138613912709056,
+   "ci_lo": -0.6418669355241358,
+   "ci_hi": -0.0959926828835773,
+   "rel_pct": -0.2953151046965881,
+   "wins": 9,
+   "n": 30,
+   "p_wilcoxon": 0.009301122277975082,
+   "p_holm": 0.04352731630206108
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "BPSO",
+   "mean_diff": -0.8131088840054105,
+   "ci_lo": -1.113255011326993,
+   "ci_hi": -0.5318088424237389,
+   "rel_pct": -0.6442967082098036,
+   "wins": 6,
+   "n": 30,
+   "p_wilcoxon": 7.994472980499268e-06,
+   "p_holm": 4.7966837882995605e-05
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "ACO",
+   "mean_diff": -0.40538575806177923,
+   "ci_lo": -0.7431567162957246,
+   "ci_hi": -0.09266189663136852,
+   "rel_pct": -0.32226345516836724,
+   "wins": 13,
+   "n": 30,
+   "p_wilcoxon": 0.052263347432017326,
+   "p_holm": 0.10452669486403465
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "DE",
+   "mean_diff": -0.02523488262310849,
+   "ci_lo": -0.36476711142830653,
+   "ci_hi": 0.3184918188721423,
+   "rel_pct": -0.020121404812817344,
+   "wins": 14,
+   "n": 30,
+   "p_wilcoxon": 0.935398668050766,
+   "p_holm": 0.935398668050766
+  },
+  {
+   "reference": "HACO-PSO-GA",
+   "comparator": "HACO-PSO",
+   "mean_diff": -0.3279307695636215,
+   "ci_lo": -0.5741426779837232,
+   "ci_hi": -0.0827474624281284,
+   "rel_pct": -0.26085083528633235,
+   "wins": 9,
+   "n": 30,
+   "p_wilcoxon": 0.008705463260412216,
+   "p_holm": 0.04352731630206108
+  }
+ ],
+ "practical_vs_segment_per_100k": 319.8616294559192
+}
