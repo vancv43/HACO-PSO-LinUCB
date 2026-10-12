@@ -1,6 +1,6 @@
 # HACO-PSO-LinUCB: results, tables and run logs
 
-Supporting results for the manuscript **"Enhanced Masked Contextual Bandits for Bank Channel Selection: An Empirical Comparison of a Dual-Model Hybrid with Conventional Metaheuristics"**.
+**Enhanced Masked Contextual Bandits for Bank Channel Selection: An Empirical Comparison of a Dual-Model Hybrid with Conventional Metaheuristics**
 
 V. V. Chau, U. Klinsak, and P. Meesad
 
