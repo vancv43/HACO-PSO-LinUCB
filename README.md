@@ -39,10 +39,34 @@ HACO-PSO is a dual-model hybrid. Particle swarm optimization handles the numeric
 
 All results are specific to the simulator.
 
+## Figures
+
+The images below are the same figures as in the manuscript. Vector PDF versions are in `figures/`.
+
+### Figure 1: (a) Study workflow and (b) HACO-PSO-LinUCB method
+
+![Figure 1: (a) Study workflow and (b) HACO-PSO-LinUCB method](figures/figure1_workflow_and_method.png)
+
+Panel (a) shows the five stages of the study. A simulator turns the bank schema into synthetic worlds. Features and reachability masks are then built, policies choose channels, and a paired evaluation compares them world by world.
+
+Panel (b) shows the proposed method. HACO-PSO searches settings on the validation months, and the masked LinUCB bandit uses them for every new contact. The test months are scored once, after the setting is fixed.
+
+### Figure 2: HACO-PSO versus other search methods with 95% CIs
+
+<p align="center"><img src="figures/figure2_hacopso_vs_tuners.png" width="520" alt="Figure 2: HACO-PSO versus other search methods with 95% CIs"></p>
+
+Each point is a paired difference in test net value: HACO-PSO minus another tuner, in points per 1,000 contacts. Bars are unadjusted 95% bootstrap CIs. Filled markers show Holm-corrected Wilcoxon p < 0.05 within each column. Data: `tables/stage3/table7_hacopso_vs_tuners.csv`.
+
+### Figure 3: Lead of HACO-PSO-LinUCB over tuned baselines with 95% CIs
+
+<p align="center"><img src="figures/figure3_lead_vs_tuned_baselines.png" width="520" alt="Figure 3: Lead of HACO-PSO-LinUCB over tuned baselines with 95% CIs"></p>
+
+Each point is the lead of HACO-PSO-LinUCB as a percentage of the baseline's net value. Filled markers show Holm-corrected p < 0.05. Against tuned GBM and the tuned segment rule, the lead is 9–10% before the baselines are tuned and 2–3% after. Against a frozen ridge model tuned the same way, the lead is small and not significant.
+
 ## Repository layout
 
 ```
-figures/   Figures 1–3 of the manuscript, vector PDF
+figures/   Figures 1–3 of the manuscript, vector PDF and PNG
 tables/    computed tables, one folder per stage (CSV / JSON)
 logs/      per-world run records, one JSON object per line (JSONL)
 ```
